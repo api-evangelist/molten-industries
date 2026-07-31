@@ -1,8 +1,25 @@
 aid: molten-industries
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/molten-industries.png
 name: Molten Industries
-description: Molten Industries is a company surfaced as a portfolio company of union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Molten Industries is a West Oakland, California climate-technology company
+  that uses methane pyrolysis to split natural gas into clean hydrogen and solid graphite
+  using electrical resistive heating, consuming significantly less energy than conventional
+  methods. Founded by Stanford researchers Kevin Bush and Caleb Boyd, the company produces
+  US-made graphite for lithium-ion battery anodes and hydrogen for heavy industry. It is
+  a hardware and materials manufacturer with no public developer API, SDK, or documentation
+  surface; it is tracked in the API Evangelist network as a portfolio company of Union
+  Square Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/molten-industries/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Climate Tech
+- Hydrogen
+- Graphite
+- Clean Energy
+- Materials
+- Manufacturing
+- Battery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/molten-industries-domain-security.yml
 - type: Website
   url: https://www.moltenindustries.com
+- type: About
+  url: https://moltenindustries.com/about
+- type: Careers
+  url: https://jobs.lever.co/moltenindustries
+- type: LinkedIn
+  url: https://www.linkedin.com/company/molten-industries-inc/
+- type: Twitter
+  url: https://twitter.com/Molten_Ind
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
